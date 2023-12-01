@@ -1,0 +1,60 @@
+import "std.toki"
+
+fun ByteIsDigit(byte) = byte >= CharToByte("0") and byte <= CharToByte("9")
+
+let wordToDigitMap = [
+	# zero isnt used
+	["one",   "1"],
+	["two",   "2"],
+	["three", "3"],
+	["four",  "4"],
+	["five",  "5"],
+	["six",   "6"],
+	["seven", "7"],
+	["eight", "8"],
+	["nine",  "9"],
+]
+
+fun FindDigit(line, compFunc, substrFunc, findFunc)
+	# Search for word
+	let wordDigit, wordPos
+	foreach v in wordToDigitMap
+		let pos = line:substrFunc(v[0])
+		if pos == nil
+			continue
+		end
+
+		if wordPos == nil
+			wordPos   = pos
+			wordDigit = v[1]
+		elif compFunc(pos, wordPos)
+			wordPos   = pos
+			wordDigit = v[1]
+		end
+	end
+
+	# Search for number
+	let numDigit, numPos = strtobytes(line):findFunc(fun(x) = ByteIsDigit(x))
+	if numPos /= nil
+		numDigit = line[numPos]
+	end
+
+	if numPos == nil
+		return wordDigit
+	elif wordPos == nil
+		return numDigit
+	end
+
+	# Return whichever appears sooner/later
+	return if compFunc(numPos, wordPos) then numDigit else wordDigit
+end
+
+let sum = 0
+freadstr("input.txt"):ForeachDelimed("\n", fun(line)
+	let first = line:FindDigit(fun(a, b) = a < b, FindFirstSubstr, FindFirstIf)
+	let last  = line:FindDigit(fun(a, b) = a > b, FindLastSubstr,  FindLastIf)
+
+	sum ++ strtonum(first + last)
+end)
+
+println(sum)
