@@ -1,0 +1,31 @@
+import "../tokiscript/examples/std.toki"
+
+const maxValues = [
+	["red",   12],
+	["green", 13],
+	["blue",  14],
+]
+
+let sum = 0, id = 1
+freadstr("input.txt"):ForeachDelimed("\n", fun(line)
+	let isValid = true
+	let bags    = line[(":" in line) + 2, nil]
+	foreach bag in bags:Split("; ")
+		foreach cube in bag:Split(", ")
+			let info = cube:Split(" ")
+			if strtonum(info[0]) > maxValues:GetFirstIf(fun(x) = x[0] == info[1])[1]
+				isValid = false
+				break
+			end
+		end
+
+		if not isValid
+			break
+		end
+	end
+
+	sum ++ if isValid then id else 0
+	id  ++ 1
+end)
+
+println(sum)

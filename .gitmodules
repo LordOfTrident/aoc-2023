@@ -1,0 +1,3 @@
+[submodule "tokiscript"]
+	path = tokiscript
+	url = https://github.com/lordoftrident/tokiscript

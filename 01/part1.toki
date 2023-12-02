@@ -1,4 +1,4 @@
-import "std.toki"
+import "../tokiscript/examples/std.toki"
 
 fun ByteIsDigit(byte) = byte >= CharToByte("0") and byte <= CharToByte("9")
 

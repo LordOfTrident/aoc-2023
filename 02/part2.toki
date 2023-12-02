@@ -1,0 +1,28 @@
+import "../tokiscript/examples/std.toki"
+
+let sum = 0, id = 1
+freadstr("input.txt"):ForeachDelimed("\n", fun(line)
+	let bags = line[(":" in line) + 2, nil]
+
+	let colors = [
+		["red",   0],
+		["green", 0],
+		["blue",  0],
+	]
+
+	foreach bag in bags:Split("; ")
+		foreach cube in bag:Split(", ")
+			let info  = cube:Split(" ")
+			let color = colors:FindFirstIf(fun(x) = x[0] == info[1]), n = strtonum(info[0])
+
+			if colors[color][1] < n
+				colors[color][1] = n
+			end
+		end
+	end
+
+	sum ++ colors[0][1] * colors[1][1] * colors[2][1]
+	id  ++ 1
+end)
+
+println(sum)
