@@ -1,5 +1,5 @@
 <p align="center">
-	<img width="100%" src="res/thumbnail.png"/>
+	<img width="100%" src="res/thumbnail-zoomed.png"/>
 </p>
 <p align="center">
 	<a href="./LICENSE">
