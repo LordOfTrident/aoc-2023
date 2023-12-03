@@ -1,0 +1,59 @@
+import "../tokiscript/examples/std.toki"
+
+const byteDot = CharToByte("."), byteAsterisk = CharToByte("*")
+
+let engine = freadstr("input.txt"):Split("\n")
+foreach i, line in engine
+	engine[i] = strtobytes(line) + byteDot
+end
+
+const w = engine[0]:len(), h = engine:len()
+
+fun ReadNumber(atX, atY)
+	let numStart = atX, numEnd = atX
+
+	while numStart > 0 and ByteIsDigit(engine[atY][numStart - 1])
+		numStart -- 1
+	end
+
+	while numEnd < w - 1 and ByteIsDigit(engine[atY][numEnd + 1])
+		numEnd ++ 1
+	end
+
+	return strtonum(bytestostr(engine[atY][numStart, numEnd + 1]))
+end
+
+fun ReadAdjacent(atX, atY)
+	let nums = []
+
+	foreach y in Max(atY - 1, 0) .. Min(atY + 1, h - 1)
+		foreach x in Max(atX - 1, 0) .. Min(atX + 1, w - 1)
+			if ByteIsDigit(engine[y][x])
+				let num = ReadNumber(x, y)
+				if num in nums == nil
+					nums ++ num
+				end
+			end
+		end
+	end
+
+	return nums
+end
+
+let sum = 0
+foreach row, line in engine
+	foreach col, byte in line
+		if byte /= byteAsterisk
+			continue
+		end
+
+		let nums = ReadAdjacent(col, row)
+		if len(nums) /= 2
+			continue
+		end
+
+		sum ++ nums[0] * nums[1]
+	end
+end
+
+println(sum)

@@ -1,7 +1,5 @@
 import "../tokiscript/examples/std.toki"
 
-fun ByteIsDigit(byte) = byte >= CharToByte("0") and byte <= CharToByte("9")
-
 let sum = 0
 freadstr("input.txt"):ForeachDelimed("\n", fun(line)
 	let bytes = strtobytes(line)

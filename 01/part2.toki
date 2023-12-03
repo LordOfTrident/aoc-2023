@@ -1,7 +1,5 @@
 import "../tokiscript/examples/std.toki"
 
-fun ByteIsDigit(byte) = byte >= CharToByte("0") and byte <= CharToByte("9")
-
 let wordToDigitMap = [
 	# zero isnt used
 	["one",   "1"],

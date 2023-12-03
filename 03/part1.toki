@@ -1,0 +1,48 @@
+import "../tokiscript/examples/std.toki"
+
+const byteDot = CharToByte(".")
+fun ByteIsSymbol(byte) = byte /= byteDot and not ByteIsDigit(byte)
+
+let engine = freadstr("input.txt"):Split("\n")
+foreach i, line in engine
+	engine[i] = strtobytes(line) + byteDot
+end
+
+const w = engine[0]:len(), h = engine:len()
+
+fun CheckAdjacent(atX, atY)
+	foreach y in Max(atY - 1, 0) .. Min(atY + 1, h - 1)
+		foreach x in Max(atX - 1, 0) .. Min(atX + 1, w - 1)
+			if ByteIsSymbol(engine[y][x])
+				return true
+			end
+		end
+	end
+
+	return false
+end
+
+let sum = 0
+foreach row, line in engine
+	let num = "", isAdjacent = false
+	foreach col, byte in line
+		if not ByteIsDigit(byte)
+			if num:len() > 0
+				sum ++ if isAdjacent then strtonum(num) else 0
+
+				num        = ""
+				isAdjacent = false
+			end
+
+			continue
+		end
+
+		if not isAdjacent and CheckAdjacent(col, row)
+			isAdjacent = true
+		end
+
+		num ++ ByteToChar(byte)
+	end
+end
+
+println(sum)
