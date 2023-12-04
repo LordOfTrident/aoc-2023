@@ -1,0 +1,38 @@
+import "../tokiscript/examples/std.toki"
+
+fun ParseNumberListString(str)
+	let list = []
+	str:ForeachDelimed(" ", fun(part)
+		let trimmed = part:Trim(" ")
+		if trimmed:len() > 0
+			list ++ strtonum(trimmed)
+		end
+	end)
+	return list
+end
+
+let lineNum = 0, cards = []
+freadstr("input.txt"):ForeachDelimed("\n", fun(line)
+	let sides   = line[(":" in line) + 2, nil]:Split(" | ")
+	let winning = ParseNumberListString(sides[0])
+	let yours   = ParseNumberListString(sides[1])
+	let count   = 0
+
+	foreach n in yours
+		if n in winning /= nil
+			count ++ 1
+		end
+	end
+
+	while lineNum + count >= cards:len()
+		cards ++ 1
+	end
+
+	for let i = 1; i <= count; i ++ 1
+		cards[lineNum + i] ++ cards[lineNum]
+	end
+
+	lineNum ++ 1
+end)
+
+println(cards:Sum())
