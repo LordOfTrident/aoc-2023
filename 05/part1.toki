@@ -1,0 +1,70 @@
+import "../tokiscript/examples/std.toki"
+
+let lines = freadstr("input.txt"):Split("\n")
+let seeds = []
+foreach v in lines[0][(":" in lines[0]) + 2, nil]:Split(" ")
+	seeds ++ strtonum(v)
+end
+
+lines = lines[1, nil]
+
+fun EatAndParseMap()
+	let map = []
+	lines   = lines[2, nil]
+
+	foreach line in lines
+		if line:len() == 0
+			break
+		end
+
+		let conv = []
+		foreach v in line:Split(" ")
+			conv ++ strtonum(v)
+		end
+
+		map ++ conv
+	end
+
+	if lines:len() > map:len()
+		lines = lines[map:len(), nil]
+	end
+
+	return map
+end
+
+fun FindInMap(n, map)
+	foreach conv in map
+		if n >= conv[1] and n <= conv[1] + conv[2]
+			return n - conv[1] + conv[0]
+		end
+	end
+
+	return n
+end
+
+let seedToSoil   = EatAndParseMap()
+let soilToFert   = EatAndParseMap()
+let fertToWater  = EatAndParseMap()
+let waterToLight = EatAndParseMap()
+let lightToTemp  = EatAndParseMap()
+let tempToHum    = EatAndParseMap()
+let humToLoc     = EatAndParseMap()
+
+let lowest = nil
+foreach seed in seeds
+	let n = seed
+
+	n = n:FindInMap(seedToSoil)
+	n = n:FindInMap(soilToFert)
+	n = n:FindInMap(fertToWater)
+	n = n:FindInMap(waterToLight)
+	n = n:FindInMap(lightToTemp)
+	n = n:FindInMap(tempToHum)
+	n = n:FindInMap(humToLoc)
+
+	if lowest == nil or n < lowest
+		lowest = n
+	end
+end
+
+println(lowest)
