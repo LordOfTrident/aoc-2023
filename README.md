@@ -56,7 +56,7 @@ My goals for AOC 2023 are:
 - Use AOC as an opportunity to learn other languages that im interested in (Elixir, Zig, Rust...)
 
 ## ⛄ Quickstart
-The makefile will function the same across all the day folders; `make <PART>` will run the specified part.
+The makefile works the same across all the day folders - `make <PART>` runs the specified part.
 
 Part 1:
 ```sh
