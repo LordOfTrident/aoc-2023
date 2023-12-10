@@ -33,7 +33,7 @@ My [AOC 2023](https://adventofcode.com/2023) solutions
 | [07](./07) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Rust](https://www.rust-lang.org/) |
 | [08](./08) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Rust](https://www.rust-lang.org/) |
 | [09](./09) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Elixir](https://elixir-lang.org/) |
-| [10](./10) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [10](./10) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Elixir](https://elixir-lang.org/) |
 | [11](./11) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
 | [12](./12) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
 | [13](./13) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
