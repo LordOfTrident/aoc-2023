@@ -1,4 +1,4 @@
-import "../tokiscript/examples/std.toki"
+import "../../tokiscript/examples/std.toki"
 
 const maxValues = [
 	["red",   12],

@@ -1,4 +1,4 @@
-import "../tokiscript/examples/std.toki"
+import "../../tokiscript/examples/std.toki"
 
 let sum = 0, id = 1
 freadstr("input.txt"):ForeachDelimed("\n", fun(line)

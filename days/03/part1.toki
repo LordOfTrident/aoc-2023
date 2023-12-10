@@ -1,4 +1,4 @@
-import "../tokiscript/examples/std.toki"
+import "../../tokiscript/examples/std.toki"
 
 const byteDot = CharToByte(".")
 fun ByteIsSymbol(byte) = byte /= byteDot and not ByteIsDigit(byte)

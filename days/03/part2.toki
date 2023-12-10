@@ -1,4 +1,4 @@
-import "../tokiscript/examples/std.toki"
+import "../../tokiscript/examples/std.toki"
 
 const byteDot = CharToByte("."), byteAsterisk = CharToByte("*")
 

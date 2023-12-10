@@ -24,31 +24,31 @@
 ## 🎁 Table of the days
 | Day        | Part 1 | Part 2 | Language |
 | ---------- | ------ | ------ | -------- |
-| [01](./01) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
-| [02](./02) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
-| [03](./03) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
-| [04](./04) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
-| [05](./05) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
-| [06](./06) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Rust](https://www.rust-lang.org/) |
-| [07](./07) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Rust](https://www.rust-lang.org/) |
-| [08](./08) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Rust](https://www.rust-lang.org/) |
-| [09](./09) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Elixir](https://elixir-lang.org/) |
-| [10](./10) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Elixir](https://elixir-lang.org/) |
-| [11](./11) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [12](./12) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [13](./13) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [14](./14) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [15](./15) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [16](./16) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [17](./17) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [18](./18) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [19](./19) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [20](./20) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [21](./21) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [22](./22) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [23](./23) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [24](./24) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
-| [25](./25) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [01](./days/01) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
+| [02](./days/02) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
+| [03](./days/03) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
+| [04](./days/04) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
+| [05](./days/05) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
+| [06](./days/06) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Rust](https://www.rust-lang.org/) |
+| [07](./days/07) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Rust](https://www.rust-lang.org/) |
+| [08](./days/08) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Rust](https://www.rust-lang.org/) |
+| [09](./days/09) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Elixir](https://elixir-lang.org/) |
+| [10](./days/10) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Elixir](https://elixir-lang.org/) |
+| [11](./days/11) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [12](./days/12) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [13](./days/13) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [14](./days/14) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [15](./days/15) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [16](./days/16) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [17](./days/17) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [18](./days/18) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [19](./days/19) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [20](./days/20) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [21](./days/21) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [22](./days/22) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [23](./days/23) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [24](./days/24) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [25](./days/25) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
 
 ## 🎅 Goals
 My goals for AOC 2023 are:
@@ -60,12 +60,12 @@ The makefile works the same across all the day folders - `make <PART>` runs the 
 
 Part 1:
 ```sh
-$ cd <DAY>
+$ cd days/<DAY>
 $ make part1
 ```
 
 Part 2:
 ```sh
-$ cd <DAY>
+$ cd days/<DAY>
 $ make part2
 ```

@@ -1,4 +1,4 @@
-import "../tokiscript/examples/std.toki"
+import "../../tokiscript/examples/std.toki"
 
 let wordToDigitMap = [
 	# zero isnt used
