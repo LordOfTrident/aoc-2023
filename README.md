@@ -14,14 +14,14 @@
 	<br><br><br>
 </p>
 
-My [AOC 2023](https://adventofcode.com/2023) solutions
+🎄🎁 My [AOC 2023](https://adventofcode.com/2023) solutions 🎅⛄
 
-## Table of contents
-* [Table of the days](#table-of-the-days)
-* [Goals](#goals)
-* [Quickstart](#quickstart)
+## 🎄 Table of contents
+* [🎁 Table of the days](#table-of-the-days)
+* [🎅 Goals](#goals)
+* [⛄ Quickstart](#quickstart)
 
-## Table of the days
+## 🎁 Table of the days
 | Day        | Part 1 | Part 2 | Language |
 | ---------- | ------ | ------ | -------- |
 | [01](./01) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Tokiscript](https://github.com/lordoftrident/tokiscript) |
@@ -50,12 +50,12 @@ My [AOC 2023](https://adventofcode.com/2023) solutions
 | [24](./24) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
 | [25](./25) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
 
-## Goals
+## 🎅 Goals
 My goals for AOC 2023 are:
 - Try to do a few days in my own language ([Tokiscript](https://github.com/lordoftrident/tokiscript))
 - Use AOC as an opportunity to learn other languages that im interested in (Elixir, Zig, Rust...)
 
-## Quickstart
+## ⛄ Quickstart
 The makefile will function the same across all the day folders; `make <PART>` will run the specified part.
 
 Part 1:
