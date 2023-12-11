@@ -71,11 +71,8 @@ defmodule Main do
 	def main() do
 		rows =
 			File.stream!("input.txt")
-			|> Enum.map(fn line ->
-				line
-				|> String.trim_trailing
-				|> String.graphemes
-			end)
+			|> Enum.map(&String.trim_trailing/1)
+			|> Enum.map(&String.graphemes/1)
 
 		max_x = length(Enum.at(rows, 0)) - 1
 		max_y = length(rows) - 1
