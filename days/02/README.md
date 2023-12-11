@@ -1,4 +1,4 @@
-# [🎄 Day 02](https://adventofcode.com/2023/day/2)
+# 🎄 [Day 02](https://adventofcode.com/2023/day/2)
 In Tokiscript
 
 Continuing the easy days with Tokiscript because of Tokiscript speed problems and lack of objects/maps.

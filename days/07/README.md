@@ -1,4 +1,4 @@
-# [🎄 Day 07](https://adventofcode.com/2023/day/7)
+# 🎄 [Day 07](https://adventofcode.com/2023/day/7)
 In Rust
 
 Part 1 is 124 lines... im very sure it could be way shorter, i just didnt really bother trying to

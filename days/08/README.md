@@ -1,4 +1,4 @@
-# [🎄 Day 08](https://adventofcode.com/2023/day/8)
+# 🎄 [Day 08](https://adventofcode.com/2023/day/8)
 In Rust
 
 Part 1 was easy, however part 2 was interesting. You couldnt bruteforce it because it would be way

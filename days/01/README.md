@@ -1,4 +1,4 @@
-# [🎄 Day 01](https://adventofcode.com/2023/day/1)
+# 🎄 [Day 01](https://adventofcode.com/2023/day/1)
 In Tokiscript
 
 Starting off with my own programming language, Tokiscript. I thought it would be fun to try and do a few days of AOC in a language i made myself.

@@ -1,4 +1,4 @@
-# [🎄 Day 03](https://adventofcode.com/2023/day/3)
+# 🎄 [Day 03](https://adventofcode.com/2023/day/3)
 In Tokiscript
 
 My first solution of part 1 took 17 seconds. I managed to optimize it to 300ms. A pretty big difference.

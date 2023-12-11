@@ -1,4 +1,4 @@
-# [🎄 Day 09](https://adventofcode.com/2023/day/9)
+# 🎄 [Day 09](https://adventofcode.com/2023/day/9)
 In Elixir
 
 First impression: really really fun language. My first time programming in an actual functional

@@ -1,4 +1,4 @@
-# [🎄 Day 11](https://adventofcode.com/2023/day/11)
+# 🎄 [Day 11](https://adventofcode.com/2023/day/11)
 In Elixir
 
 Another fun day with a problem that wasnt hard. Again had to think when implementing it using a
