@@ -56,10 +56,9 @@ defmodule Main do
 	end
 
 	defp rows_replace_at(rows, x, y, tile) do
-		row     = Enum.at(rows, y)
-		new_row = Enum.slice(row, 0, x) ++ [tile] ++ Enum.slice(row, x + 1, length(row))
-
-		Enum.slice(rows, 0, y) ++ [new_row] ++ Enum.slice(rows, y + 1, length(rows))
+		rows |> List.update_at(y, fn row ->
+			row |> List.update_at(x, fn _ -> tile end)
+		end)
 	end
 
 	defp mark_main_loop(rows, x, y, next, start_pipe) do
@@ -162,8 +161,7 @@ defmodule Main do
 		IO.puts "#{
 			rows
 			|> mark_main_loop(start_x, start_y, elem(pipe_to_dir(start_pipe), 0), start_pipe)
-			|> Enum.with_index
-			|> Enum.map(fn {row, pos} -> row_count_inside(row) end)
+			|> Enum.map(fn row -> row_count_inside(row) end)
 			|> sum_list
 		}"
 	end
