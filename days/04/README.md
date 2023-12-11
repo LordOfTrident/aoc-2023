@@ -1,4 +1,4 @@
-# [Day 04](https://adventofcode.com/2023/day/4)
+# [🎄 Day 04](https://adventofcode.com/2023/day/4)
 In Tokiscript
 
 This day was pretty fun. I cant really tell why, but it was funner than the other days. Maybe im just

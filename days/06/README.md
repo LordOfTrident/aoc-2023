@@ -1,4 +1,4 @@
-# [Day 06](https://adventofcode.com/2023/day/6)
+# [🎄 Day 06](https://adventofcode.com/2023/day/6)
 In Rust
 
 My first time trying rust. It was a pretty fine experience, i expected it to be harder. Thankfully

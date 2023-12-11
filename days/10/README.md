@@ -1,4 +1,4 @@
-# [Day 10](https://adventofcode.com/2023/day/10)
+# [🎄 Day 10](https://adventofcode.com/2023/day/10)
 In Elixir
 
 This was a very interesting day. I enjoyed it actually, even tho i struggled with the functional

@@ -1,4 +1,4 @@
-# [Day 05](https://adventofcode.com/2023/day/5)
+# [🎄 Day 05](https://adventofcode.com/2023/day/5)
 In Tokiscript
 
 This day was harder in Tokiscript since i discovered a Tokiscript bug and i already did not have much
