@@ -1,5 +1,5 @@
-# 🎄 [Day 03](https://adventofcode.com/2023/day/3)
-In Tokiscript
+<h1 align="center">🎄 <a href="https://adventofcode.com/2023/day/3">Day 03</a></h1>
+<p align="center">In <a href="https://github.com/lordoftrident/tokiscript">Tokiscript</a></p>
 
 My first solution of part 1 took 17 seconds. I managed to optimize it to 300ms. A pretty big difference.
 Heres a part of the old code that took 17 seconds:

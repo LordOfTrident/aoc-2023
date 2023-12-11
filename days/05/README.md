@@ -1,5 +1,5 @@
-# 🎄 [Day 05](https://adventofcode.com/2023/day/5)
-In Tokiscript
+<h1 align="center">🎄 <a href="https://adventofcode.com/2023/day/5">Day 05</a></h1>
+<p align="center">In <a href="https://github.com/lordoftrident/tokiscript">Tokiscript</a></p>
 
 This day was harder in Tokiscript since i discovered a Tokiscript bug and i already did not have much
 time left today.

@@ -1,5 +1,8 @@
-# 🎄 [Day 11](https://adventofcode.com/2023/day/11)
-In Elixir
+<h1 align="center">🎄 <a href="https://adventofcode.com/2023/day/11">Day 11</a></h1>
+<p align="center">In <a href="https://elixir-lang.org/">Elixir</a></p>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/elixir/elixir-original.svg" width="50px">
+</p>
 
 Another fun day with a problem that wasnt hard. Again had to think when implementing it using a
 functional language, but it went fine. I did my first recursive function with pattern matching

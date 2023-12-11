@@ -1,5 +1,5 @@
-# 🎄 [Day 01](https://adventofcode.com/2023/day/1)
-In Tokiscript
+<h1 align="center">🎄 <a href="https://adventofcode.com/2023/day/1">Day 01</a></h1>
+<p align="center">In <a href="https://github.com/lordoftrident/tokiscript">Tokiscript</a></p>
 
 Starting off with my own programming language, Tokiscript. I thought it would be fun to try and do a few days of AOC in a language i made myself.
 

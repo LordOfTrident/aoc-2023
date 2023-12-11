@@ -1,5 +1,5 @@
-# 🎄 [Day 04](https://adventofcode.com/2023/day/4)
-In Tokiscript
+<h1 align="center">🎄 <a href="https://adventofcode.com/2023/day/4">Day 04</a></h1>
+<p align="center">In <a href="https://github.com/lordoftrident/tokiscript">Tokiscript</a></p>
 
 This day was pretty fun. I cant really tell why, but it was funner than the other days. Maybe im just
 getting more comfy writing in Tokiscript, tho it did almost shoot me in the leg this day due to the

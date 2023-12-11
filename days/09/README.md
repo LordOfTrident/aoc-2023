@@ -1,5 +1,8 @@
-# 🎄 [Day 09](https://adventofcode.com/2023/day/9)
-In Elixir
+<h1 align="center">🎄 <a href="https://adventofcode.com/2023/day/9">Day 09</a></h1>
+<p align="center">In <a href="https://elixir-lang.org/">Elixir</a></p>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/elixir/elixir-original.svg" width="50px">
+</p>
 
 First impression: really really fun language. My first time programming in an actual functional
 language (not a functional/imperative mix like Rust or Tokiscript). It is really interesting and

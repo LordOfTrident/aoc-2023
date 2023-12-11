@@ -1,5 +1,8 @@
-# 🎄 [Day 10](https://adventofcode.com/2023/day/10)
-In Elixir
+<h1 align="center">🎄 <a href="https://adventofcode.com/2023/day/10">Day 10</a></h1>
+<p align="center">In <a href="https://elixir-lang.org/">Elixir</a></p>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/elixir/elixir-original.svg" width="50px">
+</p>
 
 This was a very interesting day. I enjoyed it actually, even tho i struggled with the functional
 mindset. A few times i just couldnt think of a way to write the code without mutable variables and
