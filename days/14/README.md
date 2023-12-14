@@ -4,7 +4,7 @@
 	<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/zig/zig-original.svg" width="50px">
 </p>
 
-Fun day. Part 1 was easy and fun primitive gravity simulation, while part 2 was cycle optimization.
+Fun day. Part 1 was an easy and fun primitive gravity simulation, while part 2 was cycle optimization.
 I did not need any hints for this days part 2, which im glad.
 
 So, last day of Zig. First day of using Zig was alright, second day i got kinda annoyed by it, but
