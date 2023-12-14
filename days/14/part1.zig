@@ -28,6 +28,17 @@ pub fn rollRocks(board: *StringArray) void {
 	}
 }
 
+pub fn boardNorthLoad(board: StringArray) usize {
+	var sum: usize = 0;
+	for (board.items, 0..) |row, i| {
+		for (row.items) |tile| {
+			if (tile == 'O')
+				sum += board.items.len - i;
+		}
+	}
+	return sum;
+}
+
 pub fn main() !void {
 	var file = try fs.cwd().openFile("input.txt", .{});
 	defer file.close();
@@ -39,7 +50,6 @@ pub fn main() !void {
 	var board = StringArray.init(allocator);
 	defer board.deinit();
 
-	var sum: usize = 0;
 	while (try stream.readUntilDelimiterOrEof(&buf, '\n')) |line| {
 		var row = String.init(allocator);
 		try row.appendSlice(line);
@@ -48,12 +58,5 @@ pub fn main() !void {
 
 	rollRocks(&board);
 
-	for (board.items, 0..) |row, i| {
-		for (row.items) |tile| {
-			if (tile == 'O')
-				sum += board.items.len - i;
-		}
-	}
-
-	try stdout.print("{d}\n", .{sum});
+	try stdout.print("{d}\n", .{boardNorthLoad(board)});
 }
