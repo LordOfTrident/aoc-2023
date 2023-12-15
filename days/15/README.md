@@ -1,7 +1,7 @@
 <h1 align="center">🎄 <a href="https://adventofcode.com/2023/day/15">Day 15</a></h1>
 <p align="center">In <a href="https://nim-lang.org/">Nim</a></p>
 <p align="center">
-	<img src="https://plugins.jetbrains.com/files/15128/445800/icon/pluginIcon.png" width="50px">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Nim_logo.svg/1200px-Nim_logo.svg.png" width="50px">
 </p>
 
 Very easy and fun day, which means a nice calm re-introduction to Nim. I like Nim more than last
