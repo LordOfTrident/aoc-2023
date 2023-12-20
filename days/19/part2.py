@@ -10,7 +10,7 @@ class Rule:
         self.send_to  = send_to
 
     @classmethod
-    def defaultRule(cls, send_to):
+    def default_rule(cls, send_to):
         return cls(None, None, None, send_to)
 
 workflows = {}
@@ -24,7 +24,7 @@ for line in workflows_str.strip().split("\n"):
         op = (lambda a, b: a > b) if cond[1] == ">" else (lambda a, b: a < b)
         rules.append(Rule(cond[0], op, int(cond[2:]), send_to))
 
-    rules.append(Rule.defaultRule(rules_str[-1]))
+    rules.append(Rule.default_rule(rules_str[-1]))
     workflows[name] = rules
 
 parts = []
