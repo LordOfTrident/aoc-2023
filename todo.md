@@ -1,3 +1,5 @@
 # TODO (0% done)
-- [ ] Go back to day 5 and finish part 2 in Tokiscript
+- (`0%`) **Finish unfinished days**
+	- [ ] Day 5 part 2
+	- [ ] Day 21 part 2
 - [ ] Add visualizations to some of the days using simple ansi terminal output

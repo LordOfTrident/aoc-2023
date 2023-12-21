@@ -1,9 +1,21 @@
 [
 	{
-		"type": "task",
-		"title": "Go back to day 5 and finish part 2 in Tokiscript",
-		"desc": null,
-		"done": false
+		"type": "group",
+		"title": "Finish unfinished days",
+		"children": [
+			{
+				"type": "task",
+				"title": "Day 5 part 2",
+				"desc": null,
+				"done": false
+			},
+			{
+				"type": "task",
+				"title": "Day 21 part 2",
+				"desc": null,
+				"done": false
+			}
+		]
 	},
 	{
 		"type": "task",
