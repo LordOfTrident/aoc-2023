@@ -45,7 +45,7 @@
 | [19](./days/19) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Python](https://www.python.org/) |
 | [20](./days/20) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | [Python](https://www.python.org/) |
 | [21](./days/21) | <img src="https://img.shields.io/badge/%E2%9C%94-26c374?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | [C++](http://cplusplus.com/) |
-| [22](./days/22) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
+| [22](./days/22) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | [C++](http://cplusplus.com/) |
 | [23](./days/23) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
 | [24](./days/24) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
 | [25](./days/25) | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | <img src="https://img.shields.io/badge/x-d63653?style=for-the-badge" width="28px"> | - |
